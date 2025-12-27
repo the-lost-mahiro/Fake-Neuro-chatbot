@@ -9,7 +9,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.9+-blue.svg?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/AI-Gemini%202.0-red.svg?style=for-the-badge&logo=google-gemini&logoColor=white">
+  <img src="https://img.shields.io/badge/AI-Gemini%202.5-red.svg?style=for-the-badge&logo=google-gemini&logoColor=white">
   <img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge">
 </p>
 
@@ -23,22 +23,22 @@ Dự án **Neuro-Clone** là một nỗ lực nhằm tái hiện khả năng tư
 ### 🛠 Tech Stack (Công nghệ sử dụng)
 <p align="left">
   <a href="https://python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
-  <a href="https://ai.google.dev/" target="_blank"> <img src="https://www.gstatic.com/lamda/images/favicon_v2_16x16.png" alt="gemini" width="40" height="40"/> </a>
+  <a href="https://ai.google.dev/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Google_Gemini_icon_2025.svg/2048px-Google_Gemini_icon_2025.svg.png" alt="gemini" width="40" height="40"/> </a>
   <a href="https://git-scm.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
 </p>
 
 ---
 
 ## 🏗 Kiến trúc hệ thống (Architecture)
-Dưới đây là luồng xử lý dữ liệu của Fale-Neuro:
+Dưới đây là luồng xử lý dữ liệu của Fake-Neuro:
 
 graph LR
-    A[Viewer/User] -->|Nhập câu hỏi| B(Terminal UI)
-    B -->|Kiểm tra lệnh| C{Hệ thống lệnh?}
-    C -->|Phải| D[Xử lý /reset, /status]
-    C -->|Không| E[Gửi tới Gemini API]
-    E -->|Nhận phản hồi| F[Lưu vào memory.json]
-    F -->|Hiển thị| A
+|A[Viewer/User] -->|Nhập câu hỏi| B(Terminal UI)|
+|B -->|Kiểm tra lệnh| C{Hệ thống lệnh?}|
+|C -->|Phải| D[Xử lý /reset, /status]|
+|C -->|Không| E[Gửi tới Gemini API]|
+|E -->|Nhận phản hồi| F[Lưu vào memory.json]|
+|F -->|Hiển thị| A|
 
 ---
 
