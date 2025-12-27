@@ -36,8 +36,8 @@ Dưới đây là luồng xử lý dữ liệu của Fake-Neuro:
 graph LR
     A[Viewer/User] -->|Nhập câu hỏi| B(Terminal UI);
     B -->|Kiểm tra lệnh| C{Hệ thống lệnh?};
-    C --|Phải|--> D[Xử lý /reset, /status];
-    C --|Không|--> E[Gửi tới Gemini API];
+    C --|Yes|--> D[Xử lý /reset, /status];
+    C --|No|--> E[Gửi tới Gemini API];
     E -->|Nhận phản hồi| F[Lưu vào memory.json];
     F -->|Hiển thị| A;
 ```
