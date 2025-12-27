@@ -2,7 +2,7 @@
 
 ---
 
-<h1 align="center">🤖 Fake-Neuro AI VTuber (Phase 1: Brain & Command System)</h1>
+<h1 align="center">🤖 Not-Neuro AI VTuber (Phase 1: Brain & Command System)</h1>
 <p align="center">
   <i>Mục tiêu: Xây dựng một AI VTuber có khả năng tương tác tự nhiên như Neuro-sama. Đây là bước đặt nền móng về tư duy lập trình và xử lý ngôn ngữ tự nhiên (NLP) trong lộ trình 4 năm đại học.</i>
 </p>
@@ -16,7 +16,7 @@
 ---
 
 ## 🌟 Tổng quan dự án
-Dự án **Fake-Neuro** là một nỗ lực nhằm tái hiện khả năng tương tác thông minh của Neuro-sama. Đây là đồ án giai đoạn Năm 1, tập trung vào việc xây dựng "Bộ não" hội thoại xử lý qua Terminal với khả năng bảo mật và quản lý bộ nhớ.
+Dự án **Not-Neuro** là một nỗ lực nhằm tái hiện khả năng tương tác thông minh của Neuro-sama. Đây là đồ án giai đoạn Năm 1, tập trung vào việc xây dựng "Bộ não" hội thoại xử lý qua Terminal với khả năng bảo mật và quản lý bộ nhớ.
 
 ---
 
@@ -30,7 +30,7 @@ Dự án **Fake-Neuro** là một nỗ lực nhằm tái hiện khả năng tư�
 ---
 
 ## 🏗 Kiến trúc hệ thống (Architecture)
-Dưới đây là luồng xử lý dữ liệu của Fake-Neuro:
+Dưới đây là luồng xử lý dữ liệu của Not-Neuro:
 
 ```mermaid
 graph LR
