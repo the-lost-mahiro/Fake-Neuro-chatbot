@@ -19,6 +19,8 @@ Dưới đây là những gì mà 1 Fake-Neuro có thể làm hiện tại
   * `/reset`: Xóa sạch bộ nhớ tạm của AI.
 
   * `/help`: Xem danh sách lệnh.
+ 
+  * `/exit`: Thoát chương trình.
 
 * **Quản lý ký ức:** Lưu lịch sử chat vào file `memory.json`.
 
